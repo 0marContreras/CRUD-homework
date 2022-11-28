@@ -14,7 +14,7 @@
   
     <div class="login">
       <h1 class="text-center">Create</h1>
-      <form class="" method="POST" action=""> <!--Aqui va el script php-->
+      <form class="" method="POST" action="../../db/crud.php"> <!--Aqui va el script php-->
           
           <div class="form-group">
               <label class="form-label" for="insert-name">Name</label>
@@ -26,7 +26,7 @@
             <input class="form-control" type="number" name="insert-age" id="insert-age"> 
         </div> 
           
-          <input class="btn btn-primary" type="submit" value="Submit">
+          <input class="btn btn-primary" type="submit" name="bu-insert" value="Submit" onclick="insertDB()">
       </form>
   </div>
 
